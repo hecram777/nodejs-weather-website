@@ -7,8 +7,6 @@ const { forecast, prettyPrint } = require("./utils/forecast");
 //create app
 const app = express();
 
-console.log("dion");
-
 //Define paths for Express config
 const publicDirectoryPath = path.join(__dirname, "../public");
 const viewsPath = path.join(__dirname, "../templates/views");
